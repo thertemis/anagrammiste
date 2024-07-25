@@ -1,0 +1,4 @@
+Flask==2.0.1
+elasticsearch==8.11.1~ynh3
+unidecode==1.2.0
+gunicorn==20.1.0
