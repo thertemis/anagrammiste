@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur d'Anagrammes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="error-container"></div>
+    <div id="app">
+        <h1>Générateur d'Anagrammes</h1>
+        <div id="input-container">
+            <input type="text" id="input" placeholder="Entrez des lettres ou des mots">
+            <button id="submit-btn">Envoyer</button>
+        </div>
+        <div id="dictionary-selector">
+            <button id="dict-fr" class="dict-btn" data-dict="fr">Français</button>
+            <button id="dict-en" class="dict-btn" data-dict="en">English</button>
+            <button id="dict-fren" class="dict-btn" data-dict="fren">Français & Anglais</button>
+            <button id="dict-all" class="dict-btn" data-dict="all">Européen</button>
+        </div>
+        <div class="letter-blocks-container">
+            <div id="letter-blocks"></div>
+            <button id="shuffle-button" class="shuffle-button">Mélanger</button>
+        </div>
+        <div id="results">
+            <div id="words"></div>
+            <div id="combinations"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

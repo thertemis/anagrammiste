@@ -1,0 +1,14 @@
+Je veux créer l'application suivante:
+- c'est un outil pour créer des anagrammes
+- l'utilisateur peut entrer une suite de mots / lettres
+- l'ensemble des lettres entrées sont représentées pars des bloc les contenants et pouvant être réordonné par drag and drop
+- L'utilisateur peut verrouiller des blocs
+- en dessous de cet espace sont suggérés les mots ou groupe de mots pouvant former des anagrammes classés par nombre de lettres utilisées parmi les blocs non verrouillés. ces suggestions sont cliquables et si l'utilisateur en choisi une cela verrouille et ordonne en conséquences les blocs contenant les lettres de ce mots.
+- Si la suggestion est une sugestion partielle, chercher une autre suggestion avec les lettres restantes et ainsi de suite jusqu'à ce qu'il ne reste que 0 ou 1 lettre disponible pour former un groupe de mot compatible (toujours utiliser le mot le plus possible)
+- L'intérface doit être colorée , interactive , reactive et claire. 
+- à coté de chaque mot une petite icone permet de rechercher le mot sur le wiktionnaire
+- il ne doit pas y avoir de doublons, l'application doit pouvoir tourner en local
+- possibilité de suggérer conjointement plusieurs mots pour utiliser un maximum de lettres disponibles
+- les accents ne sont pas pris en compte pour la selection (é,è ë sont tous e), les espaces non plus
+- Les blocs de lettres doivent suivre un coloration pastel suivant les couleurs de l'arc-en-ciel de A (rouge) à Z (violet)
+- le blocs et les emplacement doivent avoir un effet 3D comme des blocs en bois que l'on mettrais dans des trous 
